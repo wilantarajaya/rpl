@@ -1,0 +1,179 @@
+* {
+    font-family: anton, sans-serif;
+}
+
+/* Navbar */
+
+
+.navbar{
+    background-color: #30475e !important;
+    box-shadow: 0px 5px 5px rgba(0, 0 , 0, .75);
+}
+.navbar-brand {
+    color: white !important;
+    font-size: 24px;
+}
+.navbar-collapse a{
+    color:white !important;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+button i {
+   color: white !important;
+    font-size: 25px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+}
+/* Navbar */
+
+/* Body */
+.isi{
+    text-align: center !important;
+    background-color: #dddddd;
+    padding-bottom: 100px;
+   
+}
+.foto img{
+    width: 600px;
+}
+.foto {
+    margin-top: 3rem;
+}
+
+.row h3{
+    margin-top: 170px;
+}
+
+.isi .row {
+    margin-top: 50px;
+}
+/* Body */
+
+/* produk */
+.card{
+    width: 80% !important;
+    margin-top: 30px !important;
+    margin: 0 auto;
+}
+.produk img{
+    height: 200px;
+    width: 250px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.produk{
+    text-align: center !important;
+    padding: 10px 10px;
+   
+}
+.produk h4{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.produk .btn{
+    width: 200px;
+}
+
+.card-body p{
+    text-align: left;
+}
+/* produk */
+
+/* button */
+.tombol a, .part a, .identitas a, .bayar a{
+    background-color: #30475e !important;
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+.tombol, .part a, .identitas a, .bayar a{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+}
+/* button */
+/* Part */
+.part{
+    margin-top: 100px;
+}
+.row{
+    margin-top: 30px;
+}
+.part h3. {
+    text-align: center;
+}
+/* Akhir Part */
+
+
+/* identitas */
+.identitas{
+    margin-top: 100px;
+    padding-bottom: 500px;
+}
+.identitas .judul{
+    text-align: center;
+}
+/* akhir identitas */
+/* hp */
+
+.pembayaran{
+    margin-top: 100px;
+    padding-bottom: 350px;
+}
+.pembayaran h3{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pembayaran .form-check{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+.footer {
+    background-color:  #1b262c;
+    color: white;
+}
+.footer p {
+    padding: 20px;
+    text-align: center;
+    margin : 0;
+}
+
+
+.nota{
+    margin-top: 100px;
+}
+.nota .bukti{
+    padding-bottom: 50px;
+}
+
+.table{
+    margin-top: 100px;
+}
+
+.datatable{
+    padding-bottom: 120px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .foto img{
+        width: 400px;
+    }
+
+    .row h3{
+        margin-top: 100px;
+    }
+}
+/* hp */
