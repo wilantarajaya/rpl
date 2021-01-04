@@ -169,7 +169,7 @@ button i {
 
 @media (max-width: 575.98px) { 
     .foto img{
-        width: 300px;
+        width: 70%;
     }
 
     .row h3{
